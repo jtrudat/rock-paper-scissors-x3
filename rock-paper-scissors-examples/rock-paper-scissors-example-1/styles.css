@@ -1,0 +1,60 @@
+body{
+  /*background: lightgrey;*/
+  background-image: url('./assets/sea-edge.png');
+  /*text align to center text and buttons*/
+  text-align: center;
+  background-size:1550px
+}
+img {
+    display: block;
+    /*must set left and right margins to auto to center an image*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /*transform: scale(1.15)*/
+  }
+button{
+  background: rgb(154, 192, 205);
+  font-size: 20px;  
+}
+h1{
+  color: red;
+  /*background-color: rgb(27, 100, 118);*/
+  }
+/*#winner{
+  transform: scale(.5);
+  transition-duration: 10s;
+}*/
+
+#rock{
+  transform: scale(1);
+}
+#paper{
+  transform: scale(1);
+}
+#scissors{
+  transform: scale(1);
+}
+input:hover {
+  background-color: cornflowerblue;
+  transform: scale(1.5);
+  transition-duration: 8s;
+  color: white
+}
+#winner{
+  margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+section{
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px
+
+}
+#compImg{
+  width: 15%
+}
+#userImg{
+  width: 18%
+}
